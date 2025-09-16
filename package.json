@@ -12,4 +12,30 @@
     "react": "latest",
     "react-dom": "latest"
   }
-}fix package.json
+}/** @type {import('next').NextConfig} */
+const nextConfig = {};
+export default nextConfig;
+export default function Home() {
+  return (
+    <main style={{ textAlign: "center", marginTop: "2rem" }}>
+      <h1>NasaX is Live 🚀 HalleluYah!</h1>
+      <p>This is your very first Next.js page running in Codespaces.</p>
+    </main>
+  );
+}npm install
+npm run dev
+1 {                          <-- start here, first character on first line
+2   "name": "nasax",
+3   "version": "1.0.0",
+4   "private": true,
+5   "scripts": {
+6     "dev": "next dev",
+7     "build": "next build",
+8     "start": "next start"
+9   },
+10  "dependencies": {
+11    "next": "latest",
+12    "react": "latest",
+13    "react-dom": "latest"
+14  }
+15 }
